@@ -18,7 +18,7 @@ for(int j=0; j<3; j++){
 if(j<2){
 std::cout<<array1[i][j]<<" ";
 }else{
-   std::cout<<array1[i][j] 
+   std::cout<<array1[i][j] ;
 }
 }
 std::cout<<std::endl;
