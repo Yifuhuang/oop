@@ -30,7 +30,7 @@ return min;
 
 }
 
-int sum_min_max(int array[],int n){
+int sum_min_and_max(int array[],int n){
 
 if(n<1){
     return -1;
