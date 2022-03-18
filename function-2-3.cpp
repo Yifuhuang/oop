@@ -2,6 +2,9 @@
  
  
 
+#include <iostream>
+#include <stdlib.h>
+
 int sum_elements(int nums[],int length){
 
 int sum=0;
@@ -14,18 +17,14 @@ return sum;
 }
  
  bool is_a_palindrome(int nums[],int length){
-int outCome=1,a=0;
+int outCome=true,a=0;
 while(a<length){
 if(nums[a]!=nums[length-a-1]){
-    outCome=0;
+    outCome=false;
 }
 a++;
 }
-if(outCome==0){
-    return false;
-}else{
-    return true;
-}
+return outCome;
 }
  
  
