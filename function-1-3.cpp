@@ -8,7 +8,7 @@ void cpyia(int old_array[],int new_array[],int length){
 
     for (int a=0;a<length;a++){
         
-            ptr2[a]= *(old_array+a);
+            *(ptr2+a)= *(ptr1+a);
         
 
     }
