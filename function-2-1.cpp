@@ -7,7 +7,7 @@ void print_sevens(int *nums,int length){
 
     for (int a=0;a<length;a++){
         
-           if((*(nums+a))%7==0){
+           if((*(ptr1+a))%7==0){
 
                std::cout<<(*(nums+a))<<std::endl;
            }
