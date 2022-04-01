@@ -1,6 +1,5 @@
 #include<string>
 #include<iostream>
-#include "function-4-1.h"
 
 using namespace std;
 
