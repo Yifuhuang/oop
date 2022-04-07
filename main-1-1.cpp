@@ -6,69 +6,33 @@ using namespace std;
 int main(){
 
 string name;
-
 int age;
-
-meerkat m1,m2,m3,m4,m5; // creating 5 objects of meerkat class
-
-m1.setName("Akshay"); // call setName() function by providing name as parameter
-
-m1.setAge(21); // call setAge() function by providing age as parameter
-
-name=m1.getName(); // call getName() function to get name
-
-age=m1.getAge(); // call getAge() function to get age
-
-printf("\n Name :%s",name.c_str()); // print name
-
-printf("\n Age :%d",age); // print age
-
-m2.setName("John");
-
-m2.setAge(25);
-
+meerkat m1,m2,m3,m4; 
+m1.setName("Joe"); 
+m1.setAge(19); 
+name=m1.getName(); 
+age=m1.getAge(); 
+cout<<"name is:"<<name<<endl;
+cout<<"age is:"<<age<<endl;
+m2.setName("Huang");
+m2.setAge(2);
 name=m2.getName();
-
 age=m2.getAge();
-
-printf("\n Name :%s",name.c_str());
-
-printf("\n Age :%d",age);
-
-m3.setName("Rocky");
-
-m3.setAge(28);
-
+cout<<"name is:"<<name<<endl;
+cout<<"age is:"<<age<<endl;
+m3.setName("Sam");
+m3.setAge(109);
 name=m3.getName();
-
 age=m3.getAge();
-
-printf("\n Name :%s",name.c_str());
-
-printf("\n Age :%d",age);
-
-m4.setName("David");
-
-m4.setAge(24);
-
+cout<<"name is:"<<name<<endl;
+cout<<"age is:"<<age<<endl;
+m4.setName("Scott");
+m4.setAge(29);
 name=m4.getName();
-
 age=m4.getAge();
+cout<<"name is:"<<name<<endl;
+cout<<"age is:"<<age<<endl;
 
-printf("\n Name :%s",name.c_str());
 
-printf("\n Age :%d",age);
 
-m5.setName("Rony");
-
-m5.setAge(18);
-
-name=m5.getName();
-
-age=m5.getAge();
-
-printf("\n Name :%s",name.c_str());
-
-printf("\n Age :%d",age);
-
-} // end of main function
+} 
