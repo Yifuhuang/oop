@@ -11,10 +11,10 @@ class meerkat{
        int age;
 
 
-meerkat() ;                      // no name or age is required to create a meerkat
-void setName(string meerName);   // change the meerkat's name
+meerkat() ;                      
+void setName(string meerName);   
 string getName();
-void setAge(int meerAge);        // change the meerkat's age
+void setAge(int meerAge);        
 int getAge();
 };
 
