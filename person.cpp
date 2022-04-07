@@ -4,8 +4,8 @@ using namespace std;
 #include"person.h"
 
 person::person(string myName,int Salary){
-    name=myName ="";
-    salary=Salary = 0;
+    name=myName;
+    salary=Salary;
 }
 void person::setName(string myName){
     name=myName;
