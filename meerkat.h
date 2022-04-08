@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
-
+#ifndef MEERKAT_H
+#define MEERKAT_H
 
 
 class meerkat{
@@ -17,5 +18,4 @@ string getName();
 void setAge(int meerAge);        
 int getAge();
 };
-
-
+#endif
