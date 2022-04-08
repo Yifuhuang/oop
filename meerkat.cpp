@@ -19,3 +19,5 @@ void meerkat::setAge(int meerAge){
 int meerkat::getAge(){
     return age;
 }
+meerkat::~meerkat(){
+}
