@@ -17,5 +17,6 @@ void setName(string meerName);
 string getName();
 void setAge(int meerAge);        
 int getAge();
+~meerkat();
 };
 #endif
