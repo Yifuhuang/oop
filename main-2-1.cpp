@@ -18,11 +18,9 @@ man5.setAge(2);
 cart cart;
 meerkat mans[5]={man1,man2,man3,man4,man5};
 
-for (size_t i = 0; i < 5; i++){
-if (cart.addMeerkat(mans[i])==false){
+
 std::cout << "no place" <<std::endl;
-}
-}
+
 cart.printMeerkats();
 
 }
