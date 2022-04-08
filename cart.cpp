@@ -36,8 +36,7 @@ bool cart::addMeerkat(meerkat cat)
            num=num-1;
            return true;
            }
-  return true;
-}
+  }
 
 void cart::emptyCart(){
    num = 4;
