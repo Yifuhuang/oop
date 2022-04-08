@@ -44,31 +44,44 @@ void cart::emptyCart(){
 }
 
 
-void cart::printMeerkats()
-{
-   if(num == 0)
-   {
-       cout << meerkat1.getName() << " " << meerkat1.getAge() << endl;
-       cout << meerkat2.getName() << " " << meerkat2.getAge() << endl;
-       cout << meerkat3.getName() << " " << meerkat3.getAge() << endl;
-       cout << meerkat4.getName() << " " << meerkat4.getAge() << endl;
+void cart::printMeerkats(){
+   if(num == 0){
+       cout << meerkat1.getName(); 
+	   cout<< " ";
+	   cout << meerkat1.getAge() << endl;
+       cout << meerkat2.getName();
+	   cout << " " ;
+	   cout<< meerkat2.getAge() << endl;
+       cout << meerkat3.getName();
+	   cout << " " ;
+	   cout<< meerkat3.getAge() << endl;
+       cout << meerkat4.getName();
+	   cout << " " ;
+	   cout<< meerkat4.getAge() << endl;
    }
-   if(num == 1)
-   {
-       cout << meerkat1.getName() << " " << meerkat1.getAge() << endl;
-       cout << meerkat2.getName() << " " << meerkat2.getAge() << endl;
-       cout << meerkat3.getName() << " " << meerkat3.getAge() << endl;
-
+   if(num == 1){
+        cout << meerkat1.getName(); 
+	   cout<< " ";
+	   cout << meerkat1.getAge() << endl;
+       cout << meerkat2.getName();
+	   cout << " " ;
+	   cout<< meerkat2.getAge() << endl;
+       cout << meerkat3.getName();
+	   cout << " " ;
+	   cout<< meerkat3.getAge() << endl;
    }
-   if(num == 2)
-   {
-       cout << meerkat1.getName() << " " << meerkat1.getAge() << endl;
-       cout << meerkat2.getName() << " " << meerkat2.getAge() << endl;
-
+   if(num == 2){
+       cout << meerkat1.getName(); 
+	   cout<< " ";
+	   cout << meerkat1.getAge() << endl;
+       cout << meerkat2.getName();
+	   cout << " " ;
+	   cout<< meerkat2.getAge() << endl;
    }
-   if(num == 3)
-   {
-       cout << meerkat1.getName() << " " << meerkat1.getAge() << endl;
+   if(num == 3){
+       cout << meerkat1.getName(); 
+	   cout<< " ";
+	   cout << meerkat1.getAge() << endl;
    }
   
 }
