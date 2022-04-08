@@ -19,7 +19,7 @@ cart cart;
 meerkat mans[5]={man1,man2,man3,man4,man5};
 
 
-std::cout << "no place" <<std::endl;
+//std::cout << "no place" <<std::endl;
 
 cart.printMeerkats();
 
