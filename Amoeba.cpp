@@ -28,7 +28,7 @@ int Amoeba::get_amoebaBranch(){
 
 int Amoeba::get_excessSales(){
 
-if(sales>1000||sales<0){
+if(sales<1000||sales==1000){
 
     return 0;
 }else{
