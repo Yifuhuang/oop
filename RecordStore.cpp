@@ -32,10 +32,11 @@ string RecordStore::get_address(){
 
 void RecordStore::set_sales(int s){
     if(s<0){
-        s=0;
+        sales=0;
+    }else{
+        sales=s;
     }
     
-    sales=s;
 }
 
 int RecordStore::get_sales(){
