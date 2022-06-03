@@ -8,7 +8,7 @@ using namespace std;
 class Amoeba: public RecordStore{
 
 
-private:
+protected:
 int storeID;                 // unique id for the store
 
 static int amoebaBranch;
