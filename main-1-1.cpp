@@ -1,12 +1,16 @@
-#include  "Stock_item.h"
-
 #include <iostream>
+#include <string>
+#include "RecordStore.h"
+
+using namespace std;
 
 int main(){
 
-Stock_item stock1("bread", 9);
+return 0;
 
-std::cout<<stock1.get_description()<<" "<<stock1.get_item_number()<<std::endl;
+
+
+
 
 
 
