@@ -31,12 +31,11 @@ string RecordStore::get_address(){
 }
 
 void RecordStore::set_sales(int s){
-    if(s<0){
-        cout<<"error"<<endl;
-    }else{
+    if(s>0){
         sales=s;
+    }else{
+        cout<<"error"<<endl;
     }
-    
     
 }
 
